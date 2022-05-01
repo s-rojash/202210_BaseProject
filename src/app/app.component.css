@@ -1,3 +1,11 @@
 * [lang^=en] {
   color: green;
 }
+.separador{
+  size: 2px;
+  color: #000;
+}
+
+.cuerpo {
+  margin: 10px;
+}
