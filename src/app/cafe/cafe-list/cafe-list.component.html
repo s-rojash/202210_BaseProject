@@ -18,6 +18,11 @@
           </tr>
         </tbody>
       </table>
+      <div class="container-fluid">
+          <div *ngFor="let row of contador | keyvalue">
+              Total {{row.key}} : {{ row.value }}
+          </div>
+      </div>
     </div>
   </div>
 
